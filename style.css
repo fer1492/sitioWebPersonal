@@ -48,6 +48,7 @@ footer p{
     color:whitesmoke;
 }
 
+
 @media (max-width: 1024px) {
     footer{
         height: 150px;
@@ -55,5 +56,7 @@ footer p{
     .card2{
         
     }
-}
 
+
+
+}
