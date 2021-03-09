@@ -20,6 +20,10 @@ body{
     color: lightseagreen;   
 }
 
+#header2 .menuhamb{
+    background-color: red;
+}
+
 #mi-nombre h1{
     color: aliceblue;
     border: double burlywood 5px;
@@ -51,7 +55,7 @@ footer p{
 
 @media (max-width: 1024px) {
     footer{
-        height: 150px;
+        height: 205px;
     }
     .card2{
         
