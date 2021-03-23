@@ -12,7 +12,7 @@
 
     <title>Fernando Silva</title>
   </head>
-   <body>
+  <body>
       <header class="header">
           <div class="hero">
               <div id="mi-nombre">
@@ -24,10 +24,11 @@
       </header>
 
 
-      <nav id="header2" class="navbar navbar-expand-sm navbar-light bg-dark">
+      <!-- <nav id="header2" class="navbar navbar-expand-sm navbar-light bg-dark">
         <div class="container-fluid justify-content-center">
             <ul class="navbar-nav me-center mb-2 mb-lg-0">
-              
+              <input type="checkbox" id="btn-menu">
+              <label for="btn-menu" class="icon-menu"></label>
               <li class="nav-item">
                 <a class="nav-link" href="https://github.com/fer1492" target="_blank">Github</a>
               </li>
@@ -46,24 +47,40 @@
               
         </div>
 
-      </nav>
+      </nav> -->
+
+      <div id="container-menu">
+        <nav>
+          <input type="checkbox" id="menu">
+          <label for="menu"> ☰ </label>
+          <ul>
+            <li><a class="nav-link" href="https://github.com/fer1492" target="_blank">Github</a></li>
+            <li><a class="nav-link" href="https://www.linkedin.com/in/juan-fernando-silva-amoza-386889bb/" target="_blank">Linkedin</a></li>
+            <li><a class="nav-link" href="https://wa.me/598096732215" target="_blank">Whatsapp</a></li>
+            <li><a class="nav-link" href="mailto:fer_1492@hotmail.com" target="_blank">Email</a></li>
+          </ul>
+        </nav>
+      </div>
+      
       
       <div class="cards">
         
-        <div class="card" style="width: 18rem;">
+        <div class="card1" style="width: 18rem;">
           <img src="mifoto.png" class="card-img-top" alt="Foto de perfil">
           <div class="card-body text-center">
-            <h5 class="card-title">Sobre mí</h5>
-            <p class="card-text">Hola mi nombre es Fernando, soy egresado de Jovenes a Programar
+            <h5 class="card-title">Sobre mí</h5> 
+            <p class="card-text">
+              Hola mi nombre es Fernando, soy egresado de Jovenes a Programar
               en donde estudié Genexus.
               Tambien incluía formacion en inglés y
               competencias transversales.
               Actualmente me sigo formando de forma autodidacta
-              y con cursos online.</p>
+              y con cursos online.
+            </p>  
           </div>
         </div>
   
-        <div class="card" style="width: 18rem">
+        <div class="card2" style="width: 18rem">
           <img src="lengu.png" class="card-img-top" alt="...">
           <div class="card-body text-center">
             <h5 class="card-title">Skills y Capacitaciones</h5>
@@ -73,13 +90,12 @@
               CSS <br>
               JavaScript <br> 
               React <br>
-              Firebase <br>
               Nivel de Inglés: Intermedio
             </p> 
           </div>
         </div>
 
-        <div class="card" style="width: 18em">
+        <div class="card3" style="width: 18rem">
           <img src="./imagenproyectos.png" class="card-proyectos" alt="...">
           <div class="card-body text-center">
             <h5 class="card-title">Proyectos</h5>
