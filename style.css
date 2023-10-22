@@ -89,10 +89,26 @@ li {
     padding: 1rem 1rem;
     
 }
+ @keyframes slideText {
+      0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(0%);
+      }
+    }
+    h1 {
+        text-align: center;
+        white-space: nowrap; /* Para que el texto no se rompa en varias líneas */
+        overflow: hidden; /* Para ocultar el texto que se desborda del contenedor */
+        animation: slideText 5s linear; /* Aplicar la animación al texto */
+      }
 
 #mi-nombre span{
     color: whitesmoke;
 }
+
+
 
 .cards{
     /* border: 2px solid palevioletred; */
