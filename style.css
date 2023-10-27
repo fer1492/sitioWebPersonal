@@ -1,5 +1,10 @@
 body{
     background-color: burlywood;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Establece el alto mínimo del cuerpo para cubrir la pantalla completa. */
 }
 
 .hero{
@@ -10,6 +15,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 
@@ -66,11 +72,6 @@ li {
 
 
 
-
-
-
-
-
 #header2 a{
     color: whitesmoke;   
 }
@@ -98,11 +99,23 @@ li {
       }
     }
     h1 {
+        color: aliceblue;
+        border: double burlywood 5px;
+        padding: 1rem 1rem;
         text-align: center;
         white-space: nowrap; /* Para que el texto no se rompa en varias líneas */
         overflow: hidden; /* Para ocultar el texto que se desborda del contenedor */
         animation: slideText 5s linear; /* Aplicar la animación al texto */
       }
+
+
+
+
+
+
+
+
+
 
 #mi-nombre span{
     color: whitesmoke;
@@ -134,11 +147,20 @@ li {
 }
 
 
+
 .card1{
     box-shadow: 3px 5px 5px 3px rgba(0, 0, 0, 0.5);
     margin-right: 1rem;
     background-color: whitesmoke;
     border-radius: 10px;
+    width: 18rem
+}
+.card1vid{
+    box-shadow: 3px 5px 5px 3px rgba(0, 0, 0, 0.5);
+    margin-right: 1rem;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 560px;
 }
 
 .card1:hover {
@@ -176,6 +198,15 @@ li {
     margin-right: 1rem;
     background-color: whitesmoke;
     border-radius: 10px;
+    width: 18rem
+}
+
+.card2vid{
+    box-shadow: 3px 5px 5px 3px rgba(0, 0, 0, 0.5);
+    margin-right: 1rem;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 560px;
 }
 
 
@@ -192,6 +223,15 @@ li {
     margin-right: 1rem;
     background-color: whitesmoke;
     border-radius: 10px;
+    width: 18rem
+}
+
+.card3vid{
+    box-shadow: 3px 5px 5px 3px rgba(0, 0, 0, 0.5);
+    margin-right: 1rem;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 560px;
 }
 
 .card3 img{
@@ -202,6 +242,12 @@ li {
     border-top-left-radius: 10px;
 }
 
+.video-container{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 50vh; /* Ajusta la altura del contenedor al 100% del alto de la ventana */
+}
 
 
 footer {
@@ -255,6 +301,7 @@ footer p{
         margin-top: 2rem;
     }
 }
+
 
 @media (max-width: 575px){
     #container-menu ul .nav-link{
