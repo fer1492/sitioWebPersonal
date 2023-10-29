@@ -68,9 +68,13 @@ li {
     
 }
 
+.btn{
+    margin-bottom: 5px;
+}
 
-
-
+.button-container{
+    text-align: center;
+}
 
 #header2 a{
     color: whitesmoke;   
@@ -98,14 +102,15 @@ li {
         transform: translateX(0%);
       }
     }
-    h1 {
-        color: aliceblue;
+    .animated-text{
+        font-size: 1.2rem;
+        color: #fff;
         border: double burlywood 5px;
-        padding: 1rem 1rem;
+        padding: 2rem 1rem;
         text-align: center;
         white-space: nowrap; /* Para que el texto no se rompa en varias líneas */
         overflow: hidden; /* Para ocultar el texto que se desborda del contenedor */
-        animation: slideText 5s linear; /* Aplicar la animación al texto */
+        animation: slideText 2s linear; /* Aplicar la animación al texto */
       }
 
 
@@ -129,6 +134,7 @@ li {
     justify-content: center;
     margin-top: 5%;
     margin-left: 4%;
+    margin-bottom: 5%;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
@@ -304,6 +310,15 @@ footer p{
 
 
 @media (max-width: 575px){
+    .animated-text{
+        border: none;
+      }
+
+      .hero{
+        margin-bottom: 30px;
+        
+    }
+
     #container-menu ul .nav-link{
         color: white;
         display: flex;
