@@ -139,6 +139,10 @@ li {
     flex-wrap: wrap;
 }
 
+.card-text1{
+    text-align: left;
+}
+
 .card-body1{
     margin: 5%;
 }
@@ -255,6 +259,14 @@ li {
     height: 50vh; /* Ajusta la altura del contenedor al 100% del alto de la ventana */
 }
 
+.verherramientas:hover{
+    color: #fff;
+}
+
+.verherramientas{
+    color: #fff;
+    text-decoration: none;
+}
 
 footer {
     background-color: #212529 ;
@@ -264,6 +276,16 @@ footer p{
     color:whitesmoke;
 }
 
+.divfootering{
+        flex: 1;
+        margin-top: 45rem;
+}
+
+.footering{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
 
 @media only screen and (max-width: 1024px) and (min-width: 929px) {
     #footer{
