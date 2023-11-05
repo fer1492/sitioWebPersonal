@@ -1,0 +1,22 @@
+.tarjeta {
+    border-radius: 5px;
+    padding: 10px;
+    display: grid;
+    
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .enlace {
+    text-decoration: none;
+    color: #212529; /* Cambia este color a tu preferencia */
+    text-align: center; /* Centra el texto horizontalmente */
+    width: 100%; /* Ocupa el 100% del ancho disponible */
+  }
+  
+  .enlace:hover {
+    text-decoration: underline;
+  }
+  
+  
+  
